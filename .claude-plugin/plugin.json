@@ -1,0 +1,11 @@
+{
+  "name": "my-plugin",
+  "description": "TODO: plugin description",
+  "version": "0.1.0",
+  "author": {
+    "name": "kawaz"
+  },
+  "homepage": "https://github.com/kawaz/my-plugin",
+  "repository": "https://github.com/kawaz/my-plugin",
+  "license": "MIT"
+}

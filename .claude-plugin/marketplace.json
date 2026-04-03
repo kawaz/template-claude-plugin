@@ -1,0 +1,21 @@
+{
+  "name": "my-plugin",
+  "owner": {
+    "name": "kawaz"
+  },
+  "metadata": {
+    "description": "TODO: plugin description",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "my-plugin",
+      "description": "TODO: plugin description",
+      "source": "./",
+      "strict": false,
+      "skills": ["./skills/my-skill"],
+      "hooks": ["./hooks"],
+      "agents": ["./agents"]
+    }
+  ]
+}
