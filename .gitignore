@@ -1,1 +1,7 @@
 .DS_Store
+.jj/
+.vscode/
+.idea/
+*.swp
+*.swo
+*~

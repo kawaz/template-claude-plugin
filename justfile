@@ -27,6 +27,14 @@ push:
     jj bookmark set main -r @
     jj git push
 
+# push (バージョン bump なし、ドキュメント更新のみの場合)
+push-without-bump:
+    #!/usr/bin/env bash
+    set -euo pipefail
+    claude plugin validate .
+    jj bookmark set main -r @
+    jj git push
+
 # バージョンバンプ（patch）
 bump-version bump="patch":
     #!/usr/bin/env bash
