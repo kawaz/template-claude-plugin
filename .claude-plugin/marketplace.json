@@ -10,12 +10,8 @@
   "plugins": [
     {
       "name": "my-plugin",
-      "description": "TODO: plugin description",
       "source": "./",
-      "strict": false,
-      "skills": ["./skills/my-skill"],
-      "hooks": ["./hooks"],
-      "agents": ["./agents"]
+      "description": "TODO: plugin description"
     }
   ]
 }
