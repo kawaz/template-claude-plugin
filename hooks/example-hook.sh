@@ -1,7 +1,8 @@
 #!/bin/bash
 set -euo pipefail
 
-# deny 応答の標準パターン
+# deny 応答の標準パターン（サンプル実装。下の「判定ロジックの例」で呼び出す想定）
+# shellcheck disable=SC2329  # 参考実装として提供するヘルパー。ユーザが use case に応じて呼び出す
 suggest_deny() {
     local reason="$1"
     jq -cn --arg reason "$reason" \
